@@ -13,6 +13,7 @@ export default function Cart() {
       type: "ADDTOCART",
       payload: cartData,
     });
+    setCartData(0);
   };
 
   //component state
